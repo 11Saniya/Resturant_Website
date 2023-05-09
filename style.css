@@ -117,7 +117,7 @@ footer{
 @media(max-width:786px){
     .navigation{
         flex-direction: column;
-        width: 100%;
+        width: 80%;
     }
       .main{
         flex-direction: column;
