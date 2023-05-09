@@ -32,7 +32,7 @@ nav{
     position: sticky;
 }
 .navigation {
-    width: 80%;
+    width: 100%;
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -121,6 +121,7 @@ footer{
     } 
       .main{
         flex-direction: column;
+          width: 100%;
       }
       .img {
         width:60%;
