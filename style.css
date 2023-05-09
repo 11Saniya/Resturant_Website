@@ -114,17 +114,21 @@ footer{
     gap: 15px;
     font-size: 32px;
 }
-@media(max-width:786px){
+@media (max-width: 786px) {
     .navigation{
         flex-direction: column;
        
     } 
+    .navigation .info {
+        display: flex;
+        justify-content: center;
+    }
       .main{
         flex-direction: column;
           width: 100%;
       }
-      .img {
-        width:60%;
+      .main_img {
+        width:80%;
       }
       .main_content{
         gap: 20px;
